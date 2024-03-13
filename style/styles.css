@@ -43,14 +43,13 @@ footer {
 
 
 /* Content Styling for h2*/
-content h2 {
-    font-size: 24px; /* Adjust the font size as needed */
-    color: #333; /* Set the text color */
-    margin-top: 20px; /* Add space above the h2 */
-    margin-bottom: 10px; /* Add space below the h2 */
-    text-align: center; /* Center-align the text */
-    position: inherit; /* Set the position to inherit */
+#content h2 {
+    color: #333; /* Visible color */
+    font-size: 24px; /* Appropriate size */
+    margin: 10px 0; /* Adequate spacing */
+    text-align: left; /* Align as needed */
 }
+
 
 /* API data section styling */
 #api-data {
