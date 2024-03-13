@@ -62,19 +62,14 @@ footer {
 }
 
 /* Image Styling */
-section #interactive-element{
-    width: 100%;
-    height: 100%;
-}
-
-section img #suitcase {
-    width: 100px; /* Set the width to your preference */
-    height: auto; /* This will maintain the aspect ratio */
-    position: relative; /* Set the position to relative */
-    top: 50%; /* Align the top edge of the image with the center of the viewport */
-    left: 50%; /* Align the left edge of the image with the center of the viewport */
-    transform: translate(-50%, -50%); /* Translate the image to the center of the viewport */
-    line-height: auto; /* Center the text vertically by making line height equal to image height */
+section #interactive-element img {
+    width: 100%; /* Set the width to 100% */
+    height: auto; /* Set the height to auto */
+    position: absolute; /* Default position */
+    top: 0; /* Align the top edge of the image with the top of the section */
+    left: 0; /* Align the left edge of the image with the left of the section */
+    z-index: -1; /* Set the z-index to -1 */
+    line-height: normal; /* Set the line height to normal */
 }
 
 /* Image rollover effect */
