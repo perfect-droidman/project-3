@@ -21,7 +21,7 @@ header {
 /* Content Styling */
 
 #content {
-    padding-bottom: 60px; /* Height of the footer + some extra space */
+    padding-bottom: 50px; /* Height of the footer + some extra space */
     margin-top: 40px; /* Align the top of the h2 with the top of the content */
 }
 
