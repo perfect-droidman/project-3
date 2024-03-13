@@ -46,7 +46,7 @@ footer {
 #content h2 {
     color: #333; /* Visible color */
     font-size: 24px; /* Appropriate size */
-    margin: 0 10px; /* Adequate spacing */
+    margin: 10px auto; /* Adequate spacing */
     text-align: center; /* Align as needed */
 }
 
