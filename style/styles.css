@@ -1,13 +1,22 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0; /* Remove default margin and padding */
+    padding: 0; /* Remove default margin and padding */
     box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
 html, body {
     width: 100%; /* Ensure that the html and body fill the entire width of the viewport */
-    min-height: 100%;
-    position: relative;
+    min-height: 100%; /* Ensure that the html and body fill the entire height of the viewport */
+    position: relative; /* Ensure that the footer is positioned relative to the body */
+}
+
+header {
+    width: 100%; /* Stretch the header across the entire width of the page */
+    height: 50px; /* Set a fixed height for the header */
+    background-color: black; /* Black header background color */
+    color: white; /* Header text color */
+    position: absolute; /* Ensure that the header stays at the top of the page */
+    text-align: center; /* Center the text */
 }
 
 /* Make sure the content pushes the footer down but does not overlap */
@@ -31,19 +40,19 @@ footer {
 
 /* API data section styling */
 #api-data {
-    margin: 2rem auto;
-    padding: 1rem;
-    background-color: #fff;
-    width: 80%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 2rem auto; /* Center the section */
+    padding: 1rem; /* Add some padding */
+    background-color: #fff; /* White background color */
+    width: 80%; /* Set the width to your preference */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
     overflow: auto; /* Adds scrollbars if content overflows */
     word-wrap: break-word; /* Breaks long words if necessary */
 }
 
 /* Image rollover effect */
 img:hover {
-    opacity: 0.7;
-    cursor: pointer;
+    opacity: 0.7; /* Set the opacity to 70% on hover */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
 }
 
 #suitcase {
