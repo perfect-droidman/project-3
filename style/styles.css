@@ -33,12 +33,6 @@ footer {
     font-size: 14px; /* Set a fixed font size for the footer */
 }
 
-/* Content Styling for content */
-#content {
-    padding-top: 60px; /* Align the top of the api-content with the top of the content */
-    padding-bottom: 15px; /* Align the bottom of the api-content with the bottom of the content */
-}
-
 /* Content Styling for interactive-content */
 #interactive-content {
     padding-top: 30px; /* Align the top of the interactive-content with the top of the content */
