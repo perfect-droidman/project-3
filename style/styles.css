@@ -45,7 +45,7 @@ footer {
 /* Content Styling for interactive-content */
 #interactive-content {
     padding-top: 30px; /* Align the top of the interactive-content with the top of the content */
-    padding-bottom: 60px; /* Align the bottom of the interactive-content with the bottom of the content */
+    padding-bottom: 30px; /* Align the bottom of the interactive-content with the bottom of the content */
 }
 
 /* Content Styling for api-h2 */
