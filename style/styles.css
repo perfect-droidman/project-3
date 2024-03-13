@@ -37,7 +37,6 @@ footer {
 #api-content {
     padding-top: 60px; /* Align the top of the api-content with the top of the content */
     padding-bottom: 15px; /* Align the bottom of the api-content with the bottom of the content */
-    text-align: center; /* Center-align the text */
 }
 
 /* Content Styling for interactive-content */
@@ -66,6 +65,7 @@ footer {
     overflow: auto; /* Adds scrollbars if content overflows */
     word-wrap: break-word; /* Breaks long words if necessary */
     position: relative; /* Set the position to relative */
+    align-items: center; /* Center-align the content */
 }
 
 #suitcase {
