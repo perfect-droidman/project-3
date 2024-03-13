@@ -1,0 +1,41 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* API data section styling */
+#api-data {
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Image rollover effect */
+img:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
