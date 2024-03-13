@@ -74,14 +74,14 @@ footer {
 #suitcase {
     width: 50px; /* Set the width to 50px */
     height: auto; /* Set the height to auto */
-    position: static; /* Set the position to static */
+    position: relative; /* Set the position to static */
     top: 50%; /* Align the top edge of the image with the top of the section */
     left: 50%; /* Align the left edge of the image with the left of the section */
     transform: translate(-50%, -50%); /* Move the image to the center of the section */
 }
 
 /* Image rollover effect */
-section img:hover {
+img:hover {
     opacity: 0.7; /* Set the opacity to 70% */
     cursor: pointer; /* Set the cursor to pointer */
 }
