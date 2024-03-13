@@ -36,7 +36,6 @@ footer {
     line-height: 50px; /* Center the text vertically by making line height equal to footer height */
 }
 
-
 /* Content Styling for h2 */
 #content h2 {
     font-size: 24px; /* Set a fixed font size for the h2 */
@@ -60,13 +59,13 @@ footer {
 }
 
 /* Image rollover effect */
-section #suitcase {
+section #suitcase img {
     width: 75px; /* Set the width to your preference */
     height: auto; /* This will maintain the aspect ratio */
     position: relative; /* Set the position to relative */
-    top: 50%; /* Align the top edge of the image with the center of the viewport */
+    top: 60%; /* Align the top edge of the image with the center of the viewport */
     left: 50%; /* Align the left edge of the image with the center of the viewport */
-    transform: translate(-50%, -50%); /* Translate the image to the center of the viewport */
+    transform: translate(-60%, -50%); /* Translate the image to the center of the viewport */
 }
 
 img:hover {
