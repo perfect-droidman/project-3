@@ -10,7 +10,7 @@ html, body {
     position: relative; /* Ensure that the footer is positioned relative to the body */
 }
 
-header {
+h1{
     width: 100%; /* Stretch the header across the entire width of the page */
     height: 20px; /* Set a fixed height for the header */
     background-color: black; /* Black header background color */
