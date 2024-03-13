@@ -80,6 +80,12 @@ footer {
     height: auto; /* Set the height to auto */
 }
 
+/* Interactive Content Styling */
+#content.interactive-content {
+    padding-top: 30px; /* Align the top of the interactive-content with the top of the content */
+    padding-bottom: 15px; /* Align the bottom of the interactive-content with the bottom of the content */
+}
+
 #interactive-element img:suitcase {
     width: 50px; /* Set the width to 50px */
     height: auto; /* Set the height to auto */
