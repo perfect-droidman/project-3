@@ -43,7 +43,14 @@ footer {
 
 /* API data section styling */
 api-data h2 {
-    
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #333; /* Set the text color */
+    margin-top: 20px; /* Add space above the h2 */
+    margin-bottom: 10px; /* Add space below the h2 */
+    text-align: center; /* Center-align the text */
+    /* Additional styling */
+    font-family: Arial, sans-serif; /* Specify the font family */
+    font-weight: normal; /* Adjust font weight; 'normal' or 'bold' */
 }
 
 #api-data {
@@ -58,7 +65,14 @@ api-data h2 {
 
 /* Image rollover effect */
 interactive-content h2{
-    
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #333; /* Set the text color */
+    margin-top: 20px; /* Add space above the h2 */
+    margin-bottom: 10px; /* Add space below the h2 */
+    text-align: center; /* Center-align the text */
+    /* Additional styling */
+    font-family: Arial, sans-serif; /* Specify the font family */
+    font-weight: normal; /* Adjust font weight; 'normal' or 'bold' */
 }
 
 interactive-content suitcase {
