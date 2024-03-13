@@ -41,7 +41,7 @@ footer {
 }
 
 /* Content Styling for h2 */
-#content h2 {
+#content.h2 {
     font-size: 24px; /* Set a fixed font size for the h2 */
     text-align: center; /* Center the h2 content */
     padding-top: 30px; /* Align the top of the h2 with the top of the content */
@@ -50,15 +50,15 @@ footer {
 
 /* Content Styling for api-content */
 #content.api-content {
-    padding-top: 30px; /* Align the top of the api-content with the top of the content */
+    padding-top: 60px; /* Align the top of the api-content with the top of the content */
     padding-bottom: 15px; /* Align the bottom of the api-content with the bottom of the content */
     border-bottom: 1px solid #ccc; /* Add a border to the bottom of the api-content */
 }
 
 /* Content Styling for interactive-content */
 #content.interactive-content {
-    padding-top: 30px; /* Align the top of the interactive-content with the top of the content */
-    padding-bottom: 15px; /* Align the bottom of the interactive-content with the bottom of the content */
+    padding-top: 60px; /* Align the top of the interactive-content with the top of the content */
+    padding-bottom: 60px; /* Align the bottom of the interactive-content with the bottom of the content */
 }
 
 /* API data section styling */
@@ -80,13 +80,7 @@ footer {
     height: auto; /* Set the height to auto */
 }
 
-/* Interactive Content Styling */
-#content.interactive-content {
-    padding-top: 30px; /* Align the top of the interactive-content with the top of the content */
-    padding-bottom: 15px; /* Align the bottom of the interactive-content with the bottom of the content */
-}
-
-#interactive-element img:suitcase {
+#suitcase {
     width: 50px; /* Set the width to 50px */
     height: auto; /* Set the height to auto */
     position: relative; /* Set the position to relative */
