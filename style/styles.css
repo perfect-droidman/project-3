@@ -74,8 +74,13 @@ footer {
     align-items: center; /* Align the items in the center */
 }
 
-/* Image Styling */
+/* Interactive Element Styling */
 #interactive-element {
+    width: 100%; /* Set the width to 50px */
+    height: 100%; /* Set the height to auto */
+}
+
+#interactive-element img {
     width: 50px; /* Set the width to 50px */
     height: auto; /* Set the height to auto */
     position: relative; /* Set the position to relative */
