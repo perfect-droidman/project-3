@@ -76,8 +76,8 @@ footer {
 
 /* Interactive Element Styling */
 #interactive-element {
-    width: 100%; /* Set the width to 50px */
-    height: 100%; /* Set the height to auto */
+    width: auto; /* Set the width to auto */
+    height: auto; /* Set the height to auto */
 }
 
 #interactive-element img {
