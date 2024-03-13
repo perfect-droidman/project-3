@@ -21,7 +21,7 @@ header {
 /* Content Styling */
 
 #content {
-    padding-bottom: 30px; /* Height of the footer + some extra space */
+    padding-bottom: 60px; /* Height of the footer + some extra space */
     margin-top: 40px; /* Align the top of the h2 with the top of the content */
 }
 
@@ -30,11 +30,13 @@ footer {
     left: 0; /* Align the footer to the left edge of the page */
     bottom: 0; /* Align the footer to the bottom of the page */
     width: 100%; /* Stretch the footer across the entire width of the page */
-    height: 30px; /* Set a fixed height for the footer */
+    height: 60px; /* Set a fixed height for the footer */
     background-color: #333; /* Footer background color */
     color: white; /* Footer text color */
     text-align: center; /* Center the footer content */
     line-height: 30px; /* Center the text vertically by making line height equal to footer height */
+    font-size: 14px; /* Set a fixed font size for the footer */
+    padding-top: 15px; /* Add some padding to the top of the footer */
 }
 
 /* Content Styling for h2 */
