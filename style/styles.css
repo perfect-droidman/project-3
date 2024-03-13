@@ -59,12 +59,11 @@ footer {
     word-wrap: break-word; /* Breaks long words if necessary */
     position: relative; /* Set the position to relative */
     align-items: center; /* Align the items in the center */
-    padding: auto; /* Set the padding to auto */
 }
 
 /* Image Styling */
 section #suitcase {
-    width: 250px; /* Set the width to your preference */
+    width: 200px; /* Set the width to your preference */
     height: auto; /* This will maintain the aspect ratio */
     position: relative; /* Set the position to relative */
     top: 50%; /* Align the top edge of the image with the center of the viewport */
