@@ -13,18 +13,18 @@ header {
     background-color: #333; /* Example background color */
     color: #fff; /* Example text color */
     text-align: center; /* Center-align the text */
-    position: absolute; /* Position the header absolutely */
+    position: fixed; /* Position the header fixed */
     top: 0; /* Align the top edge of the header with the top of the viewport */
     left: 0; /* Align the left edge of the header with the left of the viewport */
 }
 
 /* Content Styling */
-
 #content {
     padding-bottom: 60px; /* Height of the footer + some extra space */
-    margin-top: 40px; /* Align the top of the h2 with the top of the content */
+    margin-top: 30px; /* Align the top of the h2 with the top of the content */
 }
 
+/* Footer Styling */
 footer {
     position: absolute; /* Position the footer absolutely */
     left: 0; /* Align the footer to the left edge of the page */
@@ -44,7 +44,7 @@ footer {
     font-size: 24px; /* Set a fixed font size for the h2 */
     text-align: center; /* Center the h2 content */
     margin: 20px 0; /* Add some margin to the top and bottom of the h2 */
-    padding-top: 40px; /* Align the top of the h2 with the top of the content */
+    padding-top: 30px; /* Align the top of the h2 with the top of the content */
 }
 
 /* API data section styling */
