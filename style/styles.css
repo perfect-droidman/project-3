@@ -80,7 +80,7 @@ footer {
     height: auto; /* Set the height to auto */
 }
 
-#interactive-element img {
+#interactive-element img:suitcase {
     width: 50px; /* Set the width to 50px */
     height: auto; /* Set the height to auto */
     position: relative; /* Set the position to relative */
