@@ -72,12 +72,6 @@ footer {
     align-items: center; /* Align the items in the center */
 }
 
-/* Interactive Element Styling */
-#interactive-element {
-    width: auto; /* Set the width to auto */
-    height: auto; /* Set the height to auto */
-}
-
 #suitcase {
     width: 50px; /* Set the width to 50px */
     height: auto; /* Set the height to auto */
