@@ -34,7 +34,7 @@ footer {
     background-color: #333; /* Footer background color */
     color: white; /* Footer text color */
     text-align: center; /* Center the footer content */
-    line-height: 30px; /* Center the text vertically by making line height equal to footer height */
+    line-height: 60px; /* Center the text vertically by making line height equal to footer height */
 }
 
 /* Content Styling for h2 */
