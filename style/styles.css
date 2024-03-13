@@ -63,7 +63,7 @@ footer {
 
 /* Image Styling */
 section #interactive-element img {
-    width: 100%; /* Set the width to 100% */
+    width: 50%; /* Set the width to 100% */
     height: auto; /* Set the height to auto */
     position: absolute; /* Default position */
     top: 50%; /* Align the top edge of the image with the top of the section */
