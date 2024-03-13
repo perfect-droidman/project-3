@@ -46,9 +46,14 @@ footer {
 #content h2 {
     color: #333; /* Visible color */
     font-size: 24px; /* Appropriate size */
+    margin: 1rem 0; /* Adequate spacing */
+    text-align: center; /* Center the text */
+    line-height: 24px; /* Center the text vertically by making line height equal to header height */
+    font-weight: bold; /* Bold the text */
     margin: auto; /* Adequate spacing */
-    text-align: center; /* Align as needed */
     z-index: auto; /* Ensure the header stays above other content */
+    position: relative; /* Ensure the header stays above other content */
+    padding: 1rem; /* Adequate spacing */
 }
 
 /* API data section styling */
