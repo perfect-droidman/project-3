@@ -11,7 +11,7 @@ header {
     width: 100%; /* Make the header fill the entire width of the page */
     height: auto; /* Allow the header to size according to its content */
     background-color: #333; /* Example background color */
-    color: #fff; /* Example text color */
+    color: #fff; /* Text color */
     text-align: center; /* Center-align the text */
     position: absolute; /* Position the header absolutley */
     top: 0; /* Align the top edge of the header with the top of the viewport */
@@ -47,11 +47,11 @@ footer {
     margin-top: 30px; /* Add some margin to the top of the h2 */
     line-height: 30px; /* Set a fixed line height for the h2 */
     padding-bottom: 15px; /* Align the bottom of the api-content with the bottom of the content */
-    text-align: center; /* Center the h2 content */
+    text-align: center; /* Center-align the h2 */
 }
 
 /* API data section styling */
-#api-data {
+section #api-data {
     margin: 2rem auto; /* Center the section */
     padding: 1rem; /* Add some padding */
     background-color: #fff; /* White background color */
