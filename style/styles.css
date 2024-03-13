@@ -23,7 +23,6 @@ header {
 #content {
     padding-bottom: 60px; /* Height of the footer + some extra space */
     margin-top: 60px; /* Align the top of the h2 with the top of the content */
-    margin-bottom: 60px; /* Align the bottom of the h2 with the top of the footer */
 }
 
 footer {
@@ -41,9 +40,9 @@ footer {
 
 /* Content Styling for h2*/
 #content h2 {
-    font-size: 30px; /* Set a fixed font size for the h2 */
+    font-size: 24px; /* Set a fixed font size for the h2 */
     text-align: center; /* Center the h2 content */
-    margin: 20px 0; /* Add some margin to the top and bottom of the h2 */
+    margin: 30px 0; /* Add some margin to the top and bottom of the h2 */
 }
 
 /* API data section styling */
