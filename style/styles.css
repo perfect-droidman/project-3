@@ -20,7 +20,6 @@ header {
     position: absolute; /* Position the header absolutely */
     top: 0; /* Align the top edge of the header with the top of the viewport */
     left: 0; /* Align the left edge of the header with the left of the viewport */
-    z-index: 1; /* Ensure the header stays above other content */
 }
 
 /* Footer Styling */
