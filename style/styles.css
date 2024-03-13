@@ -46,6 +46,7 @@ footer {
     margin: 20px 0; /* Add some margin to the top and bottom of the h2 */
     padding-top: 30px; /* Align the top of the h2 with the top of the content */
     padding-bottom: 30px; /* Align the bottom of the h2 with the bottom of the content */
+    border-bottom: 1px solid #ccc; /* Add a border to the bottom of the h2 */
 }
 
 /* API data section styling */
