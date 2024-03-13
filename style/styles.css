@@ -76,7 +76,7 @@ interactive-content h2{
 }
 
 interactive-content suitcase {
-    width: auto; /* Set the width to your preference */
+    width: 200px; /* Set the width to your preference */
     height: auto; /* This will maintain the aspect ratio */
     margin: 0 auto; /* Center the image */
 }
