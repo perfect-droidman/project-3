@@ -62,7 +62,7 @@ footer {
 }
 
 /* Image Styling */
-section #interactive-element img {
+section #interactive-element {
     width: 50px; /* Set the width to 50px */
     height: auto; /* Set the height to auto */
     position: absolute; /* Default position */
