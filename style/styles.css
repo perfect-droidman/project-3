@@ -1,9 +1,9 @@
 body {
     width: 100%; /* Ensure that the html and body fill the entire width of the viewport */
     margin: 0; /* Remove the default margin */
-    padding: 0px; /* Remove the default padding */
     min-height: 100%; /* Ensure that the html and body fill the entire height of the viewport */
     position: relative; /* Ensure that the footer is positioned relative to the body */
+    padding-top: 40px; /* Add some padding to the top of the body to make room for the header */
 }
 
 /* Header Styling */
@@ -22,6 +22,7 @@ header {
 
 #content {
     padding-bottom: 60px; /* Height of the footer + some extra space */
+    margin-top: 40px; /* Align the top of the h2 with the top of the content */
 }
 
 footer {
@@ -40,9 +41,8 @@ footer {
 #content h2 {
     font-size: 24px; /* Set a fixed font size for the h2 */
     text-align: center; /* Center the h2 content */
-    margin: 30px 0; /* Add some margin to the top and bottom of the h2 */
-    margin-top: 30px; /* Align the top of the h2 with the top of the content */
-    padding-top: 30px; /* Align the top of the h2 with the top of the content */
+    margin: 20px 0; /* Add some margin to the top and bottom of the h2 */
+    padding-top: 40px; /* Align the top of the h2 with the top of the content */
 }
 
 /* API data section styling */
@@ -62,7 +62,7 @@ footer {
 section #suitcase img {
     width: 75px; /* Set the width to your preference */
     height: auto; /* This will maintain the aspect ratio */
-    position: fixed; /* Set the position to fixed */
+    position: relative; /* Set the position to relative */
     top: 50%; /* Align the top edge of the image with the center of the viewport */
     left: 50%; /* Align the left edge of the image with the center of the viewport */
     transform: translate(-50%, -50%); /* Translate the image to the center of the viewport */
