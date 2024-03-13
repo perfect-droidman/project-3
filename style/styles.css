@@ -44,7 +44,6 @@ footer {
 #interactive-content {
     padding-top: 30px; /* Align the top of the interactive-content with the top of the content */
     padding-bottom: 30px; /* Align the bottom of the interactive-content with the bottom of the content */
-    text-align: center; /* Center-align the text */
 }
 
 /* Content Styling for api-content.h2 */
@@ -54,6 +53,7 @@ footer {
     margin-bottom: 30px; /* Add some margin to the bottom of the h2 */
     margin-top: 30px; /* Add some margin to the top of the h2 */
     line-height: 30px; /* Set a fixed line height for the h2 */
+    text-align: center; /* Center-align the text */
 }
 
 /* API data section styling */
