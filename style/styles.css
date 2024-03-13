@@ -66,8 +66,9 @@ section #interactive-element img {
     width: 100%; /* Set the width to 100% */
     height: auto; /* Set the height to auto */
     position: absolute; /* Default position */
-    top: 0; /* Align the top edge of the image with the top of the section */
-    left: 0; /* Align the left edge of the image with the left of the section */
+    top: 50%; /* Align the top edge of the image with the top of the section */
+    left: 50%; /* Align the left edge of the image with the left of the section */
+    transform: translate(-50%, -50%); /* Move the image to the center of the section */
     z-index: -1; /* Set the z-index to -1 */
     line-height: normal; /* Set the line height to normal */
 }
