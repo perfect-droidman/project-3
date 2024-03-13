@@ -11,11 +11,11 @@ html, body {
 }
 
 h1{
+    position: absolute; /* Ensure that the header stays at the top of the page */
     width: 100%; /* Stretch the header across the entire width of the page */
     height: 20px; /* Set a fixed height for the header */
     background-color: black; /* Black header background color */
     color: white; /* Header text color */
-    position: absolute; /* Ensure that the header stays at the top of the page */
     text-align: center; /* Center the text */
 }
 
