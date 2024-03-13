@@ -39,8 +39,8 @@ footer {
     padding-bottom: 30px; /* Align the bottom of the interactive-content with the bottom of the content */
 }
 
-/* Content Styling for h2 */
-#h2{
+/* Content Styling for api-style */
+#api-style{
     font-size: 24px; /* Set a fixed font size for the h2 */
     padding-top: 60px; /* Align the top of the h2 with the top of the content */
     margin-bottom: 30px; /* Add some margin to the bottom of the h2 */
