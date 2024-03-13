@@ -57,7 +57,7 @@ footer {
 }
 
 /* API data section styling */
-#api-content.api-data {
+#api-data {
     margin: 2rem auto; /* Center the section */
     padding: 1rem; /* Add some padding */
     background-color: #fff; /* White background color */
