@@ -3,8 +3,7 @@ body {
     margin: 0; /* Remove the default margin */
     min-height: 100%; /* Ensure that the html and body fill the entire height of the viewport */
     position: absolute; /* Ensure that the footer is positioned relative to the body */
-    padding-top: 40px; /* Add some padding to the top of the body to make room for the header */
-    padding-bottom: 40px; /* Add some padding to the bottom of the body to make room for the footer */
+    padding-top: 60px; /* Add some padding to the top of the body to make room for the header */
 }
 
 /* Header Styling */
@@ -48,7 +47,6 @@ footer {
     margin-top: 30px; /* Add some margin to the top of the h2 */
     line-height: 30px; /* Set a fixed line height for the h2 */
     text-align: center; /* Center the h2 content */
-    padding-top: 60px; /* Align the top of the api-content with the top of the content */
     padding-bottom: 15px; /* Align the bottom of the api-content with the bottom of the content */
 }
 
