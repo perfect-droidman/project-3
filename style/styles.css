@@ -1,7 +1,7 @@
 html, body {
     width: 100%; /* Ensure that the html and body fill the entire width of the viewport */
     margin: 0; /* Remove the default margin */
-    padding: 0; /* Remove the default padding */
+    padding: 40px; /* Remove the default padding */
     min-height: 100%; /* Ensure that the html and body fill the entire height of the viewport */
     position: relative; /* Ensure that the footer is positioned relative to the body */
 }
@@ -22,7 +22,7 @@ header {
 
 #content {
     padding-bottom: 60px; /* Height of the footer + some extra space */
-    margin-top: 60px; /* Align the top of the h2 with the top of the content */
+    margin-top: 40px; /* Align the top of the h2 with the top of the content */
 }
 
 footer {
