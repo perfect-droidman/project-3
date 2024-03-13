@@ -1,6 +1,7 @@
 html, body {
     width: 100%; /* Ensure that the html and body fill the entire width of the viewport */
     margin: 0; /* Remove the default margin */
+    padding: auto;
     min-height: 100%; /* Ensure that the html and body fill the entire height of the viewport */
     position: relative; /* Ensure that the footer is positioned relative to the body */
 }
@@ -21,6 +22,7 @@ header {
 /* Make sure the content pushes the footer down but does not overlap */
 #content {
     padding-bottom: 60px; /* Height of the footer + some extra space */
+    margin-top: auto; /* Align the top of the h2 with the top of the content */
 }
 
 footer {
@@ -38,9 +40,10 @@ footer {
 
 /* Content Styling for h2*/
 #content h2 {
-    margin-top: auto; /* Align the top of the h2 with the top of the content */
+    font-size: 30px; /* Set a fixed font size for the h2 */
     width: 50%; /* Set a fixed width for the h2 */
     text-align: center; /* Center the h2 content */
+    margin: 20px 0; /* Add some margin to the top and bottom of the h2 */
 }
 
 /* API data section styling */
@@ -60,11 +63,10 @@ footer {
 section img:suitcase {
     width: 100px; /* Set the width to your preference */
     height: auto; /* This will maintain the aspect ratio */
+    opacity: 0.7; /* Set the opacity to 70% */
+    cursor: pointer; /* Set the cursor to pointer */
     position: relative; /* Set the position to relative */
-    -ms-flex-item-align: center; /* Align the image in the center */
-}
-
-img:hover {
-    opacity: 0.7; /* Set the opacity to 70% on hover */
-    cursor: pointer; /* Change the cursor to a pointer on hover */
+    top: 50%; /* Align the top edge of the image with the center of the viewport */
+    left: 50%; /* Align the left edge of the image with the center of the viewport */
+    transform: translate(-50%, -50%); /* Translate the image to the center of the viewport */
 }
