@@ -48,9 +48,6 @@ api-data #api {
     margin-top: 20px; /* Add space above the h2 */
     margin-bottom: 10px; /* Add space below the h2 */
     text-align: center; /* Center-align the text */
-    /* Additional styling */
-    font-family: Arial, sans-serif; /* Specify the font family */
-    font-weight: normal; /* Adjust font weight; 'normal' or 'bold' */
 }
 
 #api-data {
@@ -70,15 +67,13 @@ interactive-content #image-interactive{
     margin-top: 20px; /* Add space above the h2 */
     margin-bottom: 10px; /* Add space below the h2 */
     text-align: center; /* Center-align the text */
-    /* Additional styling */
-    font-family: Arial, sans-serif; /* Specify the font family */
-    font-weight: normal; /* Adjust font weight; 'normal' or 'bold' */
 }
 
 interactive-content #suitcase {
     width: 200px; /* Set the width to your preference */
     height: auto; /* This will maintain the aspect ratio */
     margin: 0 auto; /* Center the image */
+    position: relative; /* Set the position to relative */
 }
 
 img:hover {
