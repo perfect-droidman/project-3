@@ -69,7 +69,6 @@ footer {
     top: 50%; /* Align the top edge of the image with the top of the section */
     left: 50%; /* Align the left edge of the image with the left of the section */
     transform: translate(-50%, -50%); /* Move the image to the center of the section */
-    line-height: auto; /* Set the line height to normal */
 }
 
 /* Image rollover effect */
