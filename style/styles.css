@@ -23,6 +23,7 @@ header {
     z-index: 1000; /* Ensure the header stays above other content */
 }
 
+/* Footer Styling */
 /* Make sure the content pushes the footer down but does not overlap */
 #content {
     padding-bottom: 60px; /* Height of the footer + some extra space */
@@ -40,7 +41,29 @@ footer {
     line-height: 50px; /* Center the text vertically by making line height equal to footer height */
 }
 
-
+/* header 2 styles */
+h2 {
+    text-align: center; /* Center-align the text */
+    font-size: 30px; /* Set the font size */
+    font-weight: bold; /* Set the font weight */
+    color: #fff; /* Set the text color */
+    margin-bottom: 20px; /* Add some space between the header and the text */
+    margin-top: 20px; /* Add some space between the header and the text */
+    padding-top: 20px; /* Add some space between the header and the text */
+    padding-bottom: 20px; /* Add some space between the header and the text */
+    background-color: #333; /* Set the background color */
+    border-radius: 10px; /* Set the border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Set the box shadow */
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Set the text shadow */
+    z-index: 1000; /* Ensure the header stays above other content */
+    position: fixed; /* Fix the header at the top */
+    top: 0; /* Align the top edge of the header with the top of the viewport */
+    left: 0; /* Align the left edge of the header with the left of the viewport */
+    width: 100%; /* Stretch the header across the entire width of the page */
+    height: 50px; /* Set a fixed height for the header */
+    line-height: 50px; /* Center the text vertically by making line height equal to header height */
+    text-align: center; /* Center-align the text */
+}
 
 /* API data section styling */
 #api-data {
