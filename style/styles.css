@@ -58,10 +58,10 @@ footer {
 
 /* Image rollover effect */
 section img {
-    width: 50px; /* Set the width to your preference */
+    width: 100px; /* Set the width to your preference */
     height: auto; /* This will maintain the aspect ratio */
     margin: 0 auto; /* Center the image */
-    position: relative; /* Set the position to relative */
+    position: center; /* Set the position to relative */
 }
 
 img:hover {
