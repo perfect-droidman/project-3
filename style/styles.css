@@ -60,6 +60,7 @@ footer {
     word-wrap: break-word; /* Breaks long words if necessary */
     position: relative; /* Set the position to relative */
     align-items: center; /* Align the items in the center */
+    padding: auto; /* Set the padding to auto */
 }
 
 /* Image Styling */
