@@ -57,11 +57,11 @@ footer {
 }
 
 /* Image rollover effect */
-section img {
+section img:suitcase {
     width: 100px; /* Set the width to your preference */
     height: auto; /* This will maintain the aspect ratio */
-    margin: 0 auto; /* Center the image */
-    position: center; /* Set the position to relative */
+    position: relative; /* Set the position to relative */
+    -ms-flex-item-align: center; /* Align the image in the center */
 }
 
 img:hover {
