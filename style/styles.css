@@ -65,7 +65,7 @@ footer {
 }
 
 /* Image rollover effect */
-#suitcase {
+section img:suitcase {
     width: 50px; /* Set the width to your preference */
     height: auto; /* This will maintain the aspect ratio */
     margin: 0 auto; /* Center the image */
