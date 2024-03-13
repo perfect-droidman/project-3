@@ -10,13 +10,17 @@ html, body {
     position: relative; /* Ensure that the footer is positioned relative to the body */
 }
 
-h1{
-    position: absolute; /* Ensure that the header stays at the top of the page */
-    width: 100%; /* Stretch the header across the entire width of the page */
-    height: auto; /* Set a fixed height for the header */
-    background-color: black; /* Black header background color */
-    color: white; /* Header text color */
-    text-align: center; /* Center the text */
+/* Header Styling */
+header {
+    width: 100%; /* Make the header fill the entire width of the page */
+    height: auto; /* Allow the header to size according to its content */
+    background-color: #333; /* Example background color */
+    color: #fff; /* Example text color */
+    text-align: center; /* Center-align the text */
+    position: fixed; /* Fix the header at the top */
+    top: 0; /* Align the top edge of the header with the top of the viewport */
+    left: 0; /* Align the left edge of the header with the left of the viewport */
+    z-index: 1000; /* Ensure the header stays above other content */
 }
 
 /* Make sure the content pushes the footer down but does not overlap */
