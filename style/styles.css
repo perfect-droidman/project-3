@@ -65,7 +65,7 @@ footer {
 #interactive-element {
     width: 50px; /* Set the width to 50px */
     height: auto; /* Set the height to auto */
-    position: absolute; /* Default position */
+    position: relative; /* Set the position to relative */
     top: 50%; /* Align the top edge of the image with the top of the section */
     left: 50%; /* Align the left edge of the image with the left of the section */
     transform: translate(-50%, -50%); /* Move the image to the center of the section */
