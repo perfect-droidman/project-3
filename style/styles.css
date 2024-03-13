@@ -50,7 +50,6 @@ footer {
     text-align: center; /* Align as needed */
 }
 
-
 /* API data section styling */
 #api-data {
     margin: 2rem auto; /* Center the section */
@@ -61,6 +60,7 @@ footer {
     overflow: auto; /* Adds scrollbars if content overflows */
     word-wrap: break-word; /* Breaks long words if necessary */
     position: relative; /* Set the position to relative */
+    align-items: center; /* Align the items in the center */
 }
 
 /* Image rollover effect */
