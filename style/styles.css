@@ -66,6 +66,7 @@ section #suitcase {
     top: 50%; /* Align the top edge of the image with the center of the viewport */
     left: 50%; /* Align the left edge of the image with the center of the viewport */
     transform: translate(-50%, -50%); /* Translate the image to the center of the viewport */
+    line-height: auto; /* Center the text vertically by making line height equal to footer height */
 }
 
 /* Image rollover effect */
