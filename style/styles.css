@@ -2,7 +2,7 @@ body {
     width: 100%; /* Ensure that the html and body fill the entire width of the viewport */
     margin: 0; /* Remove the default margin */
     min-height: 100%; /* Ensure that the html and body fill the entire height of the viewport */
-    position: relative; /* Ensure that the footer is positioned relative to the body */
+    position: absolute; /* Ensure that the footer is positioned relative to the body */
     padding-top: 40px; /* Add some padding to the top of the body to make room for the header */
 }
 
@@ -13,7 +13,7 @@ header {
     background-color: #333; /* Example background color */
     color: #fff; /* Example text color */
     text-align: center; /* Center-align the text */
-    position: fixed; /* Position the header fixed */
+    position: absolute; /* Position the header absolutley */
     top: 0; /* Align the top edge of the header with the top of the viewport */
     left: 0; /* Align the left edge of the header with the left of the viewport */
 }
@@ -56,7 +56,7 @@ footer {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
     overflow: auto; /* Adds scrollbars if content overflows */
     word-wrap: break-word; /* Breaks long words if necessary */
-    position: fixed; /* Set the position to relative */
+    position: relative; /* Set the position to relative */
     align-items: center; /* Align the items in the center */
 }
 
@@ -64,7 +64,7 @@ footer {
 section #suitcase {
     width: 100px; /* Set the width to your preference */
     height: auto; /* This will maintain the aspect ratio */
-    position: fixed; /* Set the position to relative */
+    position: relative; /* Set the position to relative */
     top: 50%; /* Align the top edge of the image with the center of the viewport */
     left: 50%; /* Align the left edge of the image with the center of the viewport */
     transform: translate(-50%, -50%); /* Translate the image to the center of the viewport */
