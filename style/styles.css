@@ -25,7 +25,7 @@ footer {
     left: 0; /* Align the footer to the left edge of the page */
     bottom: 0; /* Align the footer to the bottom of the page */
     width: 100%; /* Stretch the footer across the entire width of the page */
-    height: 40px; /* Set a fixed height for the footer */
+    height: 45px; /* Set a fixed height for the footer */
     background-color: #333; /* Footer background color */
     color: white; /* Footer text color */
     text-align: center; /* Center the footer content */
@@ -46,7 +46,7 @@ footer {
 }
 
 /* Content Styling for api-content.h2 */
-#content.api-content h2{
+#api-content h2{
     font-size: 24px; /* Set a fixed font size for the h2 */
     padding-top: 60px; /* Align the top of the h2 with the top of the content */
     margin-bottom: 30px; /* Add some margin to the bottom of the h2 */
