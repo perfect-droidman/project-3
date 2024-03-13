@@ -1,7 +1,7 @@
 html, body {
     width: 100%; /* Ensure that the html and body fill the entire width of the viewport */
     margin: 0; /* Remove the default margin */
-    padding: 20px; /* Add some padding to the body */
+    padding: 60px; /* Add some padding to the body */
     min-height: 100%; /* Ensure that the html and body fill the entire height of the viewport */
     position: relative; /* Ensure that the footer is positioned relative to the body */
 }
@@ -9,7 +9,7 @@ html, body {
 /* Header Styling */
 header {
     width: 100%; /* Make the header fill the entire width of the page */
-    height: 20px; /* Allow the header to size according to its content */
+    height: 60px; /* Allow the header to size according to its content */
     background-color: #333; /* Example background color */
     color: #fff; /* Example text color */
     text-align: center; /* Center-align the text */
@@ -18,15 +18,16 @@ header {
     left: 0; /* Align the left edge of the header with the left of the viewport */
 }
 
-/* Footer Styling */
-/* Make sure the content pushes the footer down but does not overlap */
+/* Content Styling */
+
 #content {
     padding-bottom: 60px; /* Height of the footer + some extra space */
-    margin-top: 20px; /* Align the top of the h2 with the top of the content */
+    margin-top: 60px; /* Align the top of the h2 with the top of the content */
+    margin-bottom: 0px; /* Align the bottom of the h2 with the top of the footer */
 }
 
 footer {
-    position: absolute;
+    position: absolute; /* Position the footer absolutely */
     left: 0; /* Align the footer to the left edge of the page */
     bottom: 0; /* Align the footer to the bottom of the page */
     width: 100%; /* Stretch the footer across the entire width of the page */
@@ -60,7 +61,7 @@ footer {
 
 /* Image rollover effect */
 section #suitcase {
-    width: 50px; /* Set the width to your preference */
+    width: 75px; /* Set the width to your preference */
     height: auto; /* This will maintain the aspect ratio */
     position: relative; /* Set the position to relative */
     top: 50%; /* Align the top edge of the image with the center of the viewport */
