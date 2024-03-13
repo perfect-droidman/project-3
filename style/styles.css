@@ -42,7 +42,7 @@ footer {
 /* Content Styling for api-style */
 #api-style{
     font-size: 24px; /* Set a fixed font size for the h2 */
-    padding-top: 40px; /* Align the top of the h2 with the top of the content */
+    padding-top: 30px; /* Align the top of the h2 with the top of the content */
     margin-bottom: 30px; /* Add some margin to the bottom of the h2 */
     margin-top: 30px; /* Add some margin to the top of the h2 */
     line-height: 30px; /* Set a fixed line height for the h2 */
