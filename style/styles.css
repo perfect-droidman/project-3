@@ -9,7 +9,7 @@ body {
 /* Header Styling */
 header {
     width: 100%; /* Make the header fill the entire width of the page */
-    height: 60px; /* Allow the header to size according to its content */
+    height: 50px; /* Allow the header to size according to its content */
     background-color: #333; /* Example background color */
     color: #fff; /* Example text color */
     text-align: center; /* Center-align the text */
