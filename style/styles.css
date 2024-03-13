@@ -52,7 +52,7 @@ content h2 {
 }
 
 /* API data section styling */
-api-data #api-data {
+#api-data {
     margin: 2rem auto; /* Center the section */
     padding: 1rem; /* Add some padding */
     background-color: #fff; /* White background color */
@@ -63,7 +63,7 @@ api-data #api-data {
 }
 
 /* Image rollover effect */
-interactive-content #suitcase {
+#suitcase {
     width: 200px; /* Set the width to your preference */
     height: auto; /* This will maintain the aspect ratio */
     margin: 0 auto; /* Center the image */
