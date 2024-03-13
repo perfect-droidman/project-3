@@ -29,5 +29,8 @@ const rolloverImageSrc = 'images/suitcase_rollover.jpg';
 document.addEventListener('DOMContentLoaded', () => {
     const mainImage = document.getElementById('suitcase');
     setImageRollover(mainImage, originalImageSrc, rolloverImageSrc);
+
+    // Fetch data from the placeholder API or any other selected API
+    fetchDataFromAPI('https://jsonplaceholder.typicode.com/posts');
 });
 
