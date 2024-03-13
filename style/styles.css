@@ -48,6 +48,19 @@ footer {
     border-bottom: 1px solid #ccc; /* Add a border to the bottom of the h2 */
 }
 
+/* Content Styling for api-content */
+#content.api-content {
+    padding-top: 30px; /* Align the top of the api-content with the top of the content */
+    padding-bottom: 15px; /* Align the bottom of the api-content with the bottom of the content */
+    border-bottom: 1px solid #ccc; /* Add a border to the bottom of the api-content */
+}
+
+/* Content Styling for interactive-content */
+#content.interactive-content {
+    padding-top: 30px; /* Align the top of the interactive-content with the top of the content */
+    padding-bottom: 15px; /* Align the bottom of the interactive-content with the bottom of the content */
+}
+
 /* API data section styling */
 #api-data {
     margin: 2rem auto; /* Center the section */
