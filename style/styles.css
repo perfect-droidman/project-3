@@ -1,11 +1,6 @@
-* {
-    margin: 0; /* Remove default margin and padding */
-    padding: 0; /* Remove default margin and padding */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
-}
-
 html, body {
     width: 100%; /* Ensure that the html and body fill the entire width of the viewport */
+    margin: 0; /* Remove the default margin */
     min-height: 100%; /* Ensure that the html and body fill the entire height of the viewport */
     position: relative; /* Ensure that the footer is positioned relative to the body */
 }
