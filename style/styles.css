@@ -41,8 +41,9 @@ footer {
     line-height: 50px; /* Center the text vertically by making line height equal to footer height */
 }
 
-/* API data section styling */
-api-data #api {
+
+/* Content Styling for h2*/
+content h2 {
     font-size: 24px; /* Adjust the font size as needed */
     color: #333; /* Set the text color */
     margin-top: 20px; /* Add space above the h2 */
@@ -50,6 +51,7 @@ api-data #api {
     text-align: center; /* Center-align the text */
 }
 
+/* API data section styling */
 api-data #api-data {
     margin: 2rem auto; /* Center the section */
     padding: 1rem; /* Add some padding */
@@ -61,14 +63,6 @@ api-data #api-data {
 }
 
 /* Image rollover effect */
-interactive-content #image-interactive{
-    font-size: 24px; /* Adjust the font size as needed */
-    color: #333; /* Set the text color */
-    margin-top: 20px; /* Add space above the h2 */
-    margin-bottom: 10px; /* Add space below the h2 */
-    text-align: center; /* Center-align the text */
-}
-
 interactive-content #suitcase {
     width: 200px; /* Set the width to your preference */
     height: auto; /* This will maintain the aspect ratio */
