@@ -23,7 +23,7 @@ header {
 #content {
     padding-bottom: 60px; /* Height of the footer + some extra space */
     margin-top: 60px; /* Align the top of the h2 with the top of the content */
-    margin-bottom: 0px; /* Align the bottom of the h2 with the top of the footer */
+    margin-bottom: 60px; /* Align the bottom of the h2 with the top of the footer */
 }
 
 footer {
