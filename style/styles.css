@@ -16,7 +16,7 @@ header {
     position: absolute; /* Position the header absolutley */
     top: 0; /* Align the top edge of the header with the top of the viewport */
     left: 0; /* Align the left edge of the header with the left of the viewport */
-    line-height: 40px; /* Center the text vertically by making line height equal to header height */
+    line-height: auto; /* Center the text vertically by making line height equal to header height */
 }
 
 /* Footer Styling */
@@ -25,14 +25,12 @@ footer {
     left: 0; /* Align the footer to the left edge of the page */
     bottom: 0; /* Align the footer to the bottom of the page */
     width: 100%; /* Stretch the footer across the entire width of the page */
-    height: 60px; /* Set a fixed height for the footer */
+    height: 50px; /* Set a fixed height for the footer */
     background-color: #333; /* Footer background color */
     color: white; /* Footer text color */
     text-align: center; /* Center the footer content */
-    line-height: 30px; /* Set a fixed line height for the footer */
+    line-height: 50px; /* Set a fixed line height for the footer */
     font-size: 14px; /* Set a fixed font size for the footer */
-    padding-top: 15px; /* Add some padding to the top of the footer */
-    padding-bottom: 60px; /* Add some padding to the bottom of the footer */
 }
 
 /* Content Styling for api-content */
